@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic software and computing projects by Baghdad Raza.">
+  <meta name="theme-color" content="#0a0908"><title>Projects — Baghdad Raza</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230a0908'/%3E%3Cpath d='M17 16h17c9 0 14 4 14 11 0 4-2 7-6 9 5 1 8 5 8 10 0 8-6 12-16 12H17V16Zm10 9v8h7c3 0 5-1 5-4s-2-4-5-4h-7Zm0 16v8h8c4 0 6-1 6-4s-2-4-6-4h-8Z' fill='%23d89a45'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/styles-v2.css"><script src="assets/script.js" defer></script>
+</head>
+<body data-page="projects">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav class="nav container" aria-label="Primary navigation">
+    <a class="brand" href="index.html"><span class="brand-mark">BR</span><span class="brand-name">Baghdad Raza</span></a>
+    <div class="nav-links" id="navLinks"><a data-nav="home" href="index.html">Home</a><a data-nav="about" href="about.html">About</a><a data-nav="projects" href="projects.html">Projects</a><a data-nav="contact" href="contact.html">Contact</a></div>
+    <div class="nav-actions"><button class="icon-button theme-toggle" type="button" aria-label="Switch colour theme"><span class="sun">☀</span><span class="moon">☾</span></button><button class="menu-button" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu"><span></span><span></span></button></div>
+  </nav></header>
+
+  <main id="main">
+    <section class="page-intro container reveal">
+      <p class="eyebrow">Projects / 02</p>
+      <h1>Academic builds shaped by fundamentals, not inflated claims.</h1>
+      <p>Selected coursework and self-directed practice from the first five semesters.</p>
+    </section>
+
+    <section class="project-list container section" aria-label="Project list">
+      <article class="project-row reveal" id="library-system" tabindex="0" data-project="library">
+        <div class="row-number">01</div><div class="row-main"><div class="tag-row"><span>C++</span><span>OOP</span><span>File Handling</span></div><h2>Library Management System</h2><p>Manage books, members and lending records through a structured console workflow.</p></div><div class="row-action"><span>Coursework</span><button type="button" aria-label="Open Library Management System details">↗</button></div>
+      </article>
+      <article class="project-row reveal" id="hostel-system" tabindex="0" data-project="hostel">
+        <div class="row-number">02</div><div class="row-main"><div class="tag-row"><span>C++</span><span>Data Management</span></div><h2>Hostel Management System</h2><p>Track residents, available rooms, allocations and basic fee status.</p></div><div class="row-action"><span>Coursework</span><button type="button" aria-label="Open Hostel Management System details">↗</button></div>
+      </article>
+      <article class="project-row reveal" id="campus-database" tabindex="0" data-project="database">
+        <div class="row-number">03</div><div class="row-main"><div class="tag-row"><span>SQL</span><span>Relational Design</span></div><h2>Campus Records Database</h2><p>Organise students, courses and enrolments with normalised tables and queries.</p></div><div class="row-action"><span>Database Lab</span><button type="button" aria-label="Open Campus Records Database details">↗</button></div>
+      </article>
+      <article class="project-row reveal" tabindex="0" data-project="python">
+        <div class="row-number">04</div><div class="row-main"><div class="tag-row"><span>Python</span><span>CLI</span></div><h2>Personal Expense Tracker</h2><p>A compact command-line program to record, group and summarise everyday expenses.</p></div><div class="row-action"><span>Practice Build</span><button type="button" aria-label="Open Personal Expense Tracker details">↗</button></div>
+      </article>
+      <article class="project-row reveal" tabindex="0" data-project="ubuntu">
+        <div class="row-number">05</div><div class="row-main"><div class="tag-row"><span>Ubuntu</span><span>Shell</span></div><h2>Linux Task Toolkit</h2><p>A practical command reference covering navigation, files, permissions and process basics.</p></div><div class="row-action"><span>OS Lab</span><button type="button" aria-label="Open Linux Task Toolkit details">↗</button></div>
+      </article>
+      <article class="project-row reveal" tabindex="0" data-project="azure">
+        <div class="row-number">06</div><div class="row-main"><div class="tag-row"><span>Azure</span><span>HTML / CSS</span></div><h2>Cloud Deployment Lab</h2><p>A responsive static webpage prepared and published through an introductory Azure workflow.</p></div><div class="row-action"><span>Cloud Lab</span><button type="button" aria-label="Open Cloud Deployment Lab details">↗</button></div>
+      </article>
+    </section>
+
+  </main>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" type="button" aria-label="Close project details">×</button>
+    <p class="eyebrow" id="dialogMeta"></p><h2 id="dialogTitle"></h2><p id="dialogSummary"></p>
+    <div class="dialog-grid"><div><span>Core features</span><ul id="dialogFeatures"></ul></div><div><span>What I practised</span><p id="dialogLearning"></p></div></div>
+  </dialog>
+  <footer class="site-footer container"><p>© <span data-year></span> Baghdad Raza</p><p>Designed and coded with plain HTML, CSS &amp; JavaScript.</p></footer>
+</body></html>
